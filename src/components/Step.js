@@ -10,9 +10,13 @@ const Step = (props) => {
             <div className='title'>
                 <h3 style={titleStyling}>{props.title}</h3>
             </div>
-            <div className='content' style={contentStyling}>
+            <div className='Content' style={contentStyling}>
+                {/* <img style={picStyling} src={props.image} />
+                <img style={picStyling} src={props.image} />
                 <p style={paraStyling}>{props.content}</p>
                 <img style={picStyling} src={props.image} />
+                <img style={picStyling} src={props.image} />
+                <img style={picStyling} src={props.image} /> */}
 
             </div>
 
@@ -32,8 +36,8 @@ const titleStyling = {
 
 const picStyling = {
     borderRadius: '8px',
-    width: '320px',
-    height: '180px',
+    width: '30%',
+    height: '25%',
 }
 const contentStyling = {
     display: 'flex'

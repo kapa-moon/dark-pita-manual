@@ -8,8 +8,7 @@ const Step = (props) => {
         // <span>{props.number}</span>
         <div>
             <div className='title'>
-                <span style={titleStyling}>Step {props.number}</span>
-                <span style={titleStyling}>{props.name}</span>
+                <h3 style={titleStyling}>{props.title}</h3>
             </div>
             <div className='content' style={contentStyling}>
                 <p style={paraStyling}>{props.content}</p>
@@ -27,8 +26,8 @@ const Step = (props) => {
 
 const titleStyling = {
     color: '#64340B',
-    fontSize: 'x-large',
     marginRight: '10px',
+    fontWeight: '300'
 }
 
 const picStyling = {

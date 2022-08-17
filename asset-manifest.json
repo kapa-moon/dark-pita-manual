@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/dark-pita-manual/static/css/main.073c9b0a.css",
-    "main.js": "/dark-pita-manual/static/js/main.20dc629e.js",
+    "main.css": "/dark-pita-manual/static/css/main.5795e060.css",
+    "main.js": "/dark-pita-manual/static/js/main.c9e803fb.js",
     "static/js/787.fabe6348.chunk.js": "/dark-pita-manual/static/js/787.fabe6348.chunk.js",
-    "static/media/logo.svg": "/dark-pita-manual/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/dark-pita-manual/index.html",
-    "main.073c9b0a.css.map": "/dark-pita-manual/static/css/main.073c9b0a.css.map",
-    "main.20dc629e.js.map": "/dark-pita-manual/static/js/main.20dc629e.js.map",
+    "main.5795e060.css.map": "/dark-pita-manual/static/css/main.5795e060.css.map",
+    "main.c9e803fb.js.map": "/dark-pita-manual/static/js/main.c9e803fb.js.map",
     "787.fabe6348.chunk.js.map": "/dark-pita-manual/static/js/787.fabe6348.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.20dc629e.js"
+    "static/css/main.5795e060.css",
+    "static/js/main.c9e803fb.js"
   ]
 }

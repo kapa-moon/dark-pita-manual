@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dark-pita-manual/static/css/main.5795e060.css",
-    "main.js": "/dark-pita-manual/static/js/main.b862cff4.js",
+    "main.js": "/dark-pita-manual/static/js/main.62cd293b.js",
     "static/js/787.fabe6348.chunk.js": "/dark-pita-manual/static/js/787.fabe6348.chunk.js",
     "index.html": "/dark-pita-manual/index.html",
     "main.5795e060.css.map": "/dark-pita-manual/static/css/main.5795e060.css.map",
-    "main.b862cff4.js.map": "/dark-pita-manual/static/js/main.b862cff4.js.map",
+    "main.62cd293b.js.map": "/dark-pita-manual/static/js/main.62cd293b.js.map",
     "787.fabe6348.chunk.js.map": "/dark-pita-manual/static/js/787.fabe6348.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5795e060.css",
-    "static/js/main.b862cff4.js"
+    "static/js/main.62cd293b.js"
   ]
 }

@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Step from './components/Step';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+      <img className="PitaAvatar" src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/DALL%C2%B7E%202022-08-04%2012.53.10%20-%20pita%20bread%20in%20cartoon%20style%203D%20rendered.png?v=1660717926745" />
+      <h1>Welcome to Dark Pita :)</h1>
+      <Step number="1" name="Installation" image="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/ytb_side_blkpreview.gif?v=1660685057356" content=""></Step>
+
+
+    </div >
+
+
   );
 }
 

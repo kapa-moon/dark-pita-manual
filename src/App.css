@@ -1,5 +1,16 @@
 .App {
-  text-align: center;
+  text-align: left;
+  font-family: 'Signika Negative', sans-serif;
+  padding-left: 90px;
+  padding-top: 40px;
+}
+
+
+
+.PitaAvatar {
+  height: 90px;
+  width: 80px;
+  margin-right: 100px;
 }
 
 .App-logo {
@@ -32,6 +43,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

@@ -1,0 +1,10 @@
+h1 {
+    color: rgb(133, 192, 192);
+    font-size: xx-large;
+}
+
+.title {
+    border-radius: 8px;
+    width: 90px;
+    height: 100px;
+}

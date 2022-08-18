@@ -220,7 +220,7 @@ function App() {
         <li>zhangchaodesign@zju.edu.com</li>
       </ul>
       <Step
-        title="Exmaple ULRs"
+        title="Exmaple URLs"
         image="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/pitaface.png?v=1660746606545"
         content=""
       ></Step>

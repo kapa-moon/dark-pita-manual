@@ -21,7 +21,7 @@ function App() {
         <li>
           Downlaod the{' '}
           <span className="Highlight">
-            <a href="https://www.google.com/chrome/downloads/">Chrome</a>
+            <a target="_blank" href="https://www.google.com/chrome/downloads/">Chrome</a>
           </span>{' '}
           browser.
         </li>
@@ -43,7 +43,7 @@ function App() {
         <li>
           Go to{' '}
           <span className="Highlight">
-            <a href="chrome://extensions/">chrome://extensions/</a>
+            <a target="_blank" href="chrome://extensions/">chrome://extensions/</a>
           </span>{' '}
           page.
         </li>
@@ -144,7 +144,7 @@ function App() {
           .
         </li>
         <li>
-          Write your thoughts according to our <a href="https://">guidelines</a>
+          Write your thoughts according to our <a target="_blank" href="https://">guidelines</a>
           .
         </li>
         <li>Take a screenshot of the current site or your findings.</li>
@@ -226,28 +226,28 @@ function App() {
       ></Step>
       <ul style={listStlying}>
         <li>
-          <a href="https://www.amazon.com/">Amazon Homepage</a>
+          <a target="_blank" href="https://www.amazon.com/">Amazon Homepage</a>
         </li>
         <li>
-          <a href="https://www.amazon.com/s?k=tennis+ball&ref=nb_sb_ss_recent_2_0_recent">
+          <a target="_blank" href="https://www.amazon.com/s?k=tennis+ball&ref=nb_sb_ss_recent_2_0_recent">
             Amazon Search Result Page
           </a>
         </li>
         <li>
-          <a href="https://www.amazon.com/Keepsmile-Bluetooth-Changing-Bedroom-Festival/dp/B0B2D52FLK/?_encoding=UTF8&pd_rd_w=5rJOm&content-id=amzn1.sym.8cf3b8ef-6a74-45dc-9f0d-6409eb523603&pf_rd_p=8cf3b8ef-6a74-45dc-9f0d-6409eb523603&pf_rd_r=05A7TWVZEC4NP3Z9D2RW&pd_rd_wg=EwjK3&pd_rd_r=439c3022-6698-4167-92d6-81c9d96126d5&ref_=pd_gw_ci_mcx_mi">
+          <a target="_blank" href="https://www.amazon.com/Keepsmile-Bluetooth-Changing-Bedroom-Festival/dp/B0B2D52FLK/?_encoding=UTF8&pd_rd_w=5rJOm&content-id=amzn1.sym.8cf3b8ef-6a74-45dc-9f0d-6409eb523603&pf_rd_p=8cf3b8ef-6a74-45dc-9f0d-6409eb523603&pf_rd_r=05A7TWVZEC4NP3Z9D2RW&pd_rd_wg=EwjK3&pd_rd_r=439c3022-6698-4167-92d6-81c9d96126d5&ref_=pd_gw_ci_mcx_mi">
             Amazon Item Information Page
           </a>
         </li>
         <li>
-          <a href="https://www.youtube.com/">Youtube Homepage</a>
+          <a target="_blank" href="https://www.youtube.com/">Youtube Homepage</a>
         </li>
         <li>
-          <a href="https://www.youtube.com/watch?v=lJUW0iZzAaQ">
+          <a target="_blank" href="https://www.youtube.com/watch?v=lJUW0iZzAaQ">
             Youtube Video Page
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/home">Twitter Homepage</a>
+          <a target="_blank" href="https://twitter.com/home">Twitter Homepage</a>
         </li>
       </ul>
     </div>

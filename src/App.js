@@ -253,6 +253,9 @@ function App() {
           <a target="_blank" href="https://www.netflix.com/browse">Netflix Homepage</a>
         </li>
         <li>
+          <a target="_blank" href="https://www.facebook.com/">Facebook Homepage</a>
+        </li>
+        <li>
           <a target="_blank" href="https://twitter.com/home">Twitter Homepage</a>
         </li>
       </ul>

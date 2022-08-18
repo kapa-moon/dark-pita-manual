@@ -247,6 +247,12 @@ function App() {
           </a>
         </li>
         <li>
+          <a target="_blank" href="https://www.netflix.com/watch/80198062?trackId=14277281&tctx=-97%2C-97%2C%2C%2C%2C%2C%2C%2C">Netflix Watch</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.netflix.com/browse">Netflix Homepage</a>
+        </li>
+        <li>
           <a target="_blank" href="https://twitter.com/home">Twitter Homepage</a>
         </li>
       </ul>

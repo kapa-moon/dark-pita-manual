@@ -9,6 +9,14 @@
   color: #333;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .Content {
   display: flex;
   flex-direction: row;

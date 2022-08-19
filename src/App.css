@@ -44,8 +44,8 @@ a:hover {
 }
 
 .DemoLevelTwo {
-  height: 25vmin;
-  width: 42vmin;
+  height: 20vmin;
+  margin-top: 24px;
   border: 2px solid #333;
   border-radius: 8px;
   cursor: pointer;

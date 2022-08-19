@@ -56,7 +56,7 @@ function App() {
         </li>
         <img
           className="DemoLevelTwo"
-          src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/devmode.gif?v=1660887198489"
+          src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/developer_mode.gif?v=1660890072405"
         ></img>
         <li>
           Select <span className="Highlight">Load Unpacked</span>.
@@ -67,7 +67,7 @@ function App() {
         </li>
         <img
           className="DemoLevelTwo"
-          src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/unpack.gif?v=1660886552680"
+          src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/load_unpacked.gif?v=1660890078907"
         ></img>
         <li>
           Click the{' '}
@@ -94,7 +94,7 @@ function App() {
         <li>Pin the Dark Pita</li>
         <img
           className="DemoLevelTwo"
-          src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/pin-2.gif?v=1660887010807"
+          src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/pin_extension.gif?v=1660890140783"
         ></img>
       </ul>
       {/* <img
@@ -180,17 +180,28 @@ function App() {
       <Contact></Contact>
       <h3>What platforms does Dark Pita work on?</h3>
       Dark Pita works on five sites across three types of platforms (i.e.,
-      online shopping, video streaming, and social media
-      ) to help you understand and counteract dark pattern interfaces
-      in your daily online experience. It provides over 30 interventions
-      strategies to help you change undesirable dark patterns based on your
-      needs.
+      online shopping, video streaming, and social media ) to help you
+      understand and counteract dark pattern interfaces in your daily online
+      experience. It provides over 30 interventions strategies to help you
+      change undesirable dark patterns based on your needs.
       <ul style={listStlying}>
         <li>Amazon</li>
         <li>Youtube</li>
         <li>Netflix</li>
         <li>Facebook</li>
         <li>Twitter</li>
+      </ul>
+      <h3>Why does the interface not change after I select an intervention?</h3>
+      <ul style={listStlying}>
+        <li>Make sure your internet connection is stable.</li>{' '}
+        <li>
+          For the <span className="Highlight">Friction</span> intervention, you
+          have to close the overlay to see the effect.
+        </li>
+        <li>
+          For interventions on Youtube and Twitter, they usually have to take
+          2-3 seconds to initiate.
+        </li>
       </ul>
       <h3>Why and how should I take Diary Notes?</h3>
       <ul style={listStlying}>

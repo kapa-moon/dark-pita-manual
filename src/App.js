@@ -54,6 +54,7 @@ function App() {
         <li>
           Toggle <span className="Highlight">Developer mode</span> ON.
         </li>
+        <img className='Demo' src='https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/devmode.gif?v=1660887198489'></img>
         <li>
           Select <span className="Highlight">Load Unpacked</span>.
         </li>
@@ -61,6 +62,7 @@ function App() {
           Select the unpacked <span className="Highlight">/dist</span>{' '}
           directory.
         </li>
+        <img className='Demo' src='https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/unpack.gif?v=1660886552680'></img>
         <li>
           Click the{' '}
           <span className="Highlight">
@@ -84,11 +86,14 @@ function App() {
           icon next to the address bar
         </li>
         <li>Pin the Dark Pita</li>
+        <img className='Demo' src='https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/pin-2.gif?v=1660887010807'></img>
+
       </ul>
-      <img
+
+      {/* <img
         className="Demo"
         src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/install.gif?v=1660818932065"
-      ></img>
+      ></img> */}
       <Step
         title="Step 2 Usage"
         image="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/pitaface.png?v=1660746606545"
@@ -132,7 +137,7 @@ function App() {
         src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/usage.gif?v=1660825494004"
       ></img>
       <Step
-        title="Step 3 Diary Note"
+        title="Step 3 Diary Notes"
         image="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/pitaface.png?v=1660746606545"
         content=""
       ></Step>
@@ -170,7 +175,7 @@ function App() {
       Dark Pita works on five sites across three types of platforms (i.e.,
       online shopping platforms, video streaming platforms, and social meidas
       platforms) to help you understand and counteract dark pattern interfaces
-      in your daily online experience. It provides over 30 design enhancement
+      in your daily online experience. It provides over 30 interventions
       strategies to help you change undesirable dark patterns based on your
       needs.
       <ul style={listStlying}>
@@ -180,23 +185,20 @@ function App() {
         <li>Facebook</li>
         <li>Twitter</li>
       </ul>
-      <h3>Why does the interface not change after I select an intervention?</h3>
+      <h3>Why and how should I take Diary Notes?</h3>
       <ul style={listStlying}>
-        <li>Make sure your Internet connection is stable.</li>
         <li>
-          For the <span className="Highlight">Friction</span> intervention, you
-          have to close the overlay to see the effect.
-        </li>
-        <li>
-          For interventions on Youtube and Twitter, they usually take 2 to 3
-          seconds to activate.
-        </li>
+          You can think of the console as the "customer service portal" of Dark Pita. It's an important way for you as users to communicate with us.
+        </li>{' '}
+        <li>We value your 🗣 feedback and it is crucial to our study and future development.</li>{' '}
+        <li>You are encouraged to write to most of the questions. You can also send multiple messages/screenshots if  needed. </li>{' '}
+        <li>To send the diary, please refer to the instructions above.</li>
       </ul>
       <h3>When should I send diary notes?</h3>
       <ul style={listStlying}>
         <li>
-          When an intervention help you resist the manipulation from a specific
-          dark pattern.
+          When a intervention helps you resist the manipulation from a
+          specific dark pattern.
         </li>{' '}
         <li>When you come up with new intervention ideas.</li>
         <li>
@@ -276,7 +278,7 @@ function App() {
               src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/pita.png?v=1660736175003"
             ></img>
           </span>
-          , and click the <span className="Highlight">Open Banner</span> button.
+          and click the <span className="Highlight">Open Banner</span> button.
         </li>
       </ol>
       <h3>If I have other questions, who do I go to for help?</h3>

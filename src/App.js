@@ -12,6 +12,7 @@ function App() {
         src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/logo.png?v=1660814008502"
       />
       <h1>Welcome to Dark Pita :)</h1>
+      <p>This manual introduces you to using <span className="Highlight">Dark Pita</span>, the browser extension that helps you hunt down dark patterns and avoid their negative impacts on your web browsing experience.</p>
       <Step
         title="Step 0 Prerequisites"
         image="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/ytb_side_blkpreview.gif?v=1660685057356"
@@ -74,7 +75,7 @@ function App() {
           <span className="Highlight">
             <svg
               t="1660817091111"
-              class="icon"
+              className="icon"
               viewBox="0 0 1024 1024"
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +108,7 @@ function App() {
         content=""
       ></Step>
       <ul style={listStlying}>
-        <li>Encounter dark patterns when browsing a site.</li>
+        <li>When you encounter dark patterns when browsing a website, our banner will show up on top of your browser.</li>
         <li>
           Click <span className="Highlight">Show</span> to highlight dark
           patterns.
@@ -132,7 +133,7 @@ function App() {
         </li>
         <li>
           You can click <span className="Highlight">Reset</span> to reset all
-          your changes on this site.
+          your changes to dark patterns on this site.
         </li>
       </ul>
       <p>
@@ -141,6 +142,7 @@ function App() {
       </p>
       <img
         className="DemoLevelOne"
+        id="diarySection"
         src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/usage.gif?v=1660825494004"
       ></img>
       <Step
@@ -180,7 +182,7 @@ function App() {
       <Contact></Contact>
       <h3>What platforms does Dark Pita work on?</h3>
       Dark Pita works on five sites across three types of platforms (i.e.,
-      online shopping, video streaming, and social media ) to help you
+      online shopping, video streaming, and social media) to help you
       understand and counteract dark pattern interfaces in your daily online
       experience. It provides over 30 interventions strategies to help you
       change undesirable dark patterns based on your needs.
@@ -217,7 +219,7 @@ function App() {
           You are encouraged to write to most of the questions. You can also
           send multiple messages/screenshots if needed.{' '}
         </li>{' '}
-        <li>To send the diary, please refer to the instructions above.</li>
+        <li>To send the diary, please refer to the instructions <a href="#diarySection">above</a>.</li>
       </ul>
       <h3>When should I send Diary Notes?</h3>
       <ul style={listStlying}>

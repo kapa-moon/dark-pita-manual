@@ -21,7 +21,9 @@ function App() {
         <li>
           Downlaod the{' '}
           <span className="Highlight">
-            <a target="_blank" href="https://www.google.com/chrome/downloads/">Chrome</a>
+            <a target="_blank" href="https://www.google.com/chrome/downloads/">
+              Chrome
+            </a>
           </span>{' '}
           browser.
         </li>
@@ -43,7 +45,9 @@ function App() {
         <li>
           Go to{' '}
           <span className="Highlight">
-            <a target="_blank" href="chrome://extensions/">chrome://extensions/</a>
+            <a target="_blank" href="chrome://extensions/">
+              chrome://extensions/
+            </a>
           </span>{' '}
           page.
         </li>
@@ -144,8 +148,8 @@ function App() {
           .
         </li>
         <li>
-          Write your thoughts according to our <a target="_blank" href="https://">guidelines</a>
-          .
+          Write your thoughts according to our{' '}
+          <a href="#diaryGuideline">guidelines</a>.
         </li>
         <li>Take a screenshot of the current site or your findings.</li>
         <li>
@@ -193,6 +197,60 @@ function App() {
           and interventions.
         </li>
       </ul>
+      <h3 id="diaryGuideline">
+        What are the guideline questions for writing diary notes?
+      </h3>
+      <ol style={listStlying}>
+        <li>
+          What is the dark pattern you want to talk about?
+          <ul>
+            <li>How does the dark pattern affect your browsing experience?</li>
+            <li>
+              Do you think our provided interventions help improve your
+              experience?{' '}
+            </li>
+            <li>Is there a better intervention you can think of?</li>
+          </ul>
+        </li>{' '}
+        <li>
+          For the Dark Pita extension, anything interesting or any issue you
+          found when using it?
+        </li>
+        <li>
+          Did you encounter things related to dark patterns that you found
+          meaningful or interesting, not limited to our targeted dark patterns
+          and interventions?
+        </li>
+      </ol>
+      <h3>How can I take screenshots?</h3>
+      For Mac OS users:
+      <ul style={listStlying}>
+        <li>
+          Press the <span className="Highlight">Command</span>,{' '}
+          <span className="Highlight">Shift</span> and{' '}
+          <span className="Highlight">3</span> keys together to take a
+          screenshot of the entire screen.
+        </li>
+        <li>
+          Press the <span className="Highlight">Command</span>,{' '}
+          <span className="Highlight">Shift</span> and{' '}
+          <span className="Highlight">4</span> keys together to take a
+          screenshot of a selected area.
+        </li>
+      </ul>
+      For Windows users:
+      <ul style={listStlying}>
+        <li>
+          Hit the <span className="Highlight">PrtScn</span> button or{' '}
+          <span className="Highlight">Print Scrn</span> button, to take a
+          screenshot of the entire screen.
+        </li>
+      </ul>
+      Click{' '}
+      <a target="_blank" href="https://www.webwise.ie/parents/take-screenshot/">
+        here
+      </a>{' '}
+      to see more information about how to take a screenshot.
       <h3>If I close the banner, how do I reopen it?</h3>
       Two ways:
       <ol style={orderListStlying}>
@@ -226,20 +284,30 @@ function App() {
       ></Step>
       <ul style={listStlying}>
         <li>
-          <a target="_blank" href="https://www.amazon.com/">Amazon Homepage</a>
+          <a target="_blank" href="https://www.amazon.com/">
+            Amazon Homepage
+          </a>
         </li>
         <li>
-          <a target="_blank" href="https://www.amazon.com/s?k=tennis+ball&ref=nb_sb_ss_recent_2_0_recent">
+          <a
+            target="_blank"
+            href="https://www.amazon.com/s?k=tennis+ball&ref=nb_sb_ss_recent_2_0_recent"
+          >
             Amazon Search Result Page
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://www.amazon.com/Keepsmile-Bluetooth-Changing-Bedroom-Festival/dp/B0B2D52FLK/?_encoding=UTF8&pd_rd_w=5rJOm&content-id=amzn1.sym.8cf3b8ef-6a74-45dc-9f0d-6409eb523603&pf_rd_p=8cf3b8ef-6a74-45dc-9f0d-6409eb523603&pf_rd_r=05A7TWVZEC4NP3Z9D2RW&pd_rd_wg=EwjK3&pd_rd_r=439c3022-6698-4167-92d6-81c9d96126d5&ref_=pd_gw_ci_mcx_mi">
+          <a
+            target="_blank"
+            href="https://www.amazon.com/Keepsmile-Bluetooth-Changing-Bedroom-Festival/dp/B0B2D52FLK/?_encoding=UTF8&pd_rd_w=5rJOm&content-id=amzn1.sym.8cf3b8ef-6a74-45dc-9f0d-6409eb523603&pf_rd_p=8cf3b8ef-6a74-45dc-9f0d-6409eb523603&pf_rd_r=05A7TWVZEC4NP3Z9D2RW&pd_rd_wg=EwjK3&pd_rd_r=439c3022-6698-4167-92d6-81c9d96126d5&ref_=pd_gw_ci_mcx_mi"
+          >
             Amazon Item Information Page
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://www.youtube.com/">Youtube Homepage</a>
+          <a target="_blank" href="https://www.youtube.com/">
+            Youtube Homepage
+          </a>
         </li>
         <li>
           <a target="_blank" href="https://www.youtube.com/watch?v=lJUW0iZzAaQ">
@@ -247,16 +315,27 @@ function App() {
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://www.netflix.com/watch/80198062?trackId=14277281&tctx=-97%2C-97%2C%2C%2C%2C%2C%2C%2C">Netflix Watch</a>
+          <a
+            target="_blank"
+            href="https://www.netflix.com/watch/80198062?trackId=14277281&tctx=-97%2C-97%2C%2C%2C%2C%2C%2C%2C"
+          >
+            Netflix Watch
+          </a>
         </li>
         <li>
-          <a target="_blank" href="https://www.netflix.com/browse">Netflix Homepage</a>
+          <a target="_blank" href="https://www.netflix.com/browse">
+            Netflix Homepage
+          </a>
         </li>
         <li>
-          <a target="_blank" href="https://www.facebook.com/">Facebook Homepage</a>
+          <a target="_blank" href="https://www.facebook.com/">
+            Facebook Homepage
+          </a>
         </li>
         <li>
-          <a target="_blank" href="https://twitter.com/home">Twitter Homepage</a>
+          <a target="_blank" href="https://twitter.com/home">
+            Twitter Homepage
+          </a>
         </li>
       </ul>
     </div>

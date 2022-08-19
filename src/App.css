@@ -14,7 +14,6 @@ a {
 }
 
 a:hover {
-
   background-color: #f6f6f6;
   padding: 4px;
   border-radius: 2px;
@@ -36,11 +35,20 @@ a:hover {
 }
 
 .Demo {
-  height: 360px;
+  height: 25vmin;
   margin-left: 40px;
   border: 3px solid #333;
   border-radius: 8px;
   cursor: pointer;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 200ms;
+}
+
+.Demo:hover {
+  transform: scale(1.5);
 }
 
 .PitaAvatar {
@@ -61,6 +69,12 @@ a:hover {
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Demo {
+    height: 40vmin;
   }
 }
 

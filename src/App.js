@@ -185,6 +185,15 @@ function App() {
         <li>Facebook</li>
         <li>Twitter</li>
       </ul>
+      <h3>Why and how should I take Diary Notes?</h3>
+      <ul style={listStlying}>
+        <li>
+          You can think of the console as the "customer service portal" of Dark Pita. It's an important way for you as users to communicate with us.
+        </li>{' '}
+        <li>We value your feedback and it is crucial to our study and future development.</li>{' '}
+        <li>You are encouraged to write to most of the questions. You can also send multiple messages/screenshots if  needed. </li>{' '}
+        <li>To send the diary, please refer to the instructions above.</li>
+      </ul>
       <h3>When should I send diary notes?</h3>
       <ul style={listStlying}>
         <li>

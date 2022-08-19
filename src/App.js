@@ -54,7 +54,10 @@ function App() {
         <li>
           Toggle <span className="Highlight">Developer mode</span> ON.
         </li>
-        <img className='Demo' src='https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/devmode.gif?v=1660887198489'></img>
+        <img
+          className="Demo"
+          src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/devmode.gif?v=1660887198489"
+        ></img>
         <li>
           Select <span className="Highlight">Load Unpacked</span>.
         </li>
@@ -62,7 +65,10 @@ function App() {
           Select the unpacked <span className="Highlight">/dist</span>{' '}
           directory.
         </li>
-        <img className='Demo' src='https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/unpack.gif?v=1660886552680'></img>
+        <img
+          className="Demo"
+          src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/unpack.gif?v=1660886552680"
+        ></img>
         <li>
           Click the{' '}
           <span className="Highlight">
@@ -86,10 +92,11 @@ function App() {
           icon next to the address bar
         </li>
         <li>Pin the Dark Pita</li>
-        <img className='Demo' src='https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/pin-2.gif?v=1660887010807'></img>
-
+        <img
+          className="Demo"
+          src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/pin-2.gif?v=1660887010807"
+        ></img>
       </ul>
-
       {/* <img
         className="Demo"
         src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/install.gif?v=1660818932065"
@@ -188,17 +195,24 @@ function App() {
       <h3>Why and how should I take Diary Notes?</h3>
       <ul style={listStlying}>
         <li>
-          You can think of the console as the "customer service portal" of Dark Pita. It's an important way for you as users to communicate with us.
+          You can think of the console as the "customer service portal" of Dark
+          Pita. It's an important way for you as users to communicate with us.
         </li>{' '}
-        <li>We value your 🗣 feedback and it is crucial to our study and future development.</li>{' '}
-        <li>You are encouraged to write to most of the questions. You can also send multiple messages/screenshots if  needed. </li>{' '}
+        <li>
+          We value your 🗣 feedback and it is crucial to our study and future
+          development.
+        </li>{' '}
+        <li>
+          You are encouraged to write to most of the questions. You can also
+          send multiple messages/screenshots if needed.{' '}
+        </li>{' '}
         <li>To send the diary, please refer to the instructions above.</li>
       </ul>
       <h3>When should I send diary notes?</h3>
       <ul style={listStlying}>
         <li>
-          When an intervention helps you resist the manipulation from a
-          specific dark pattern.
+          When an intervention helps you resist the manipulation from a specific
+          dark pattern.
         </li>{' '}
         <li>When you come up with new intervention ideas.</li>
         <li>

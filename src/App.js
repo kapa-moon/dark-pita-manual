@@ -197,7 +197,7 @@ function App() {
       <h3>When should I send diary notes?</h3>
       <ul style={listStlying}>
         <li>
-          When a intervention helps you resist the manipulation from a
+          When an intervention helps you resist the manipulation from a
           specific dark pattern.
         </li>{' '}
         <li>When you come up with new intervention ideas.</li>

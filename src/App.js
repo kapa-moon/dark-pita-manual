@@ -162,7 +162,7 @@ function App() {
       </ul>
       <img
         className="Demo"
-        src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/diary.gif?v=1660825125934"
+        src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/diary.gif?v=1660881151788"
       ></img>
       {/* <StepOne></StepOne> */}
       <Contact></Contact>
@@ -180,13 +180,25 @@ function App() {
         <li>Facebook</li>
         <li>Twitter</li>
       </ul>
+      <h3>Why does the interface not change after I select an intervention?</h3>
+      <ul style={listStlying}>
+        <li>Make sure your Internet connection is stable.</li>
+        <li>
+          For the <span className="Highlight">Friction</span> intervention, you
+          have to close the overlay to see the effect.
+        </li>
+        <li>
+          For interventions on Youtube and Twitter, they usually take 2 to 3
+          seconds to activate.
+        </li>
+      </ul>
       <h3>When should I send diary notes?</h3>
       <ul style={listStlying}>
         <li>
-          When a design enhancement help you resist the manipulation from a
-          specific dark pattern.
+          When an intervention help you resist the manipulation from a specific
+          dark pattern.
         </li>{' '}
-        <li>When you come up with new design enhancement ideas.</li>
+        <li>When you come up with new intervention ideas.</li>
         <li>
           When you feel something interesting or annoying when interacting with
           our extension.

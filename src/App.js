@@ -54,6 +54,7 @@ function App() {
         <li>
           Toggle <span className="Highlight">Developer mode</span> ON.
         </li>
+        <img className='Demo' src='https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/devmode.gif?v=1660887198489'></img>
         <li>
           Select <span className="Highlight">Load Unpacked</span>.
         </li>
@@ -61,6 +62,7 @@ function App() {
           Select the unpacked <span className="Highlight">/dist</span>{' '}
           directory.
         </li>
+        <img className='Demo' src='https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/unpack.gif?v=1660886552680'></img>
         <li>
           Click the{' '}
           <span className="Highlight">
@@ -84,11 +86,14 @@ function App() {
           icon next to the address bar
         </li>
         <li>Pin the Dark Pita</li>
+        <img className='Demo' src='https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/pin-2.gif?v=1660887010807'></img>
+
       </ul>
-      <img
+
+      {/* <img
         className="Demo"
         src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/install.gif?v=1660818932065"
-      ></img>
+      ></img> */}
       <Step
         title="Step 2 Usage"
         image="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/pitaface.png?v=1660746606545"
@@ -132,7 +137,7 @@ function App() {
         src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/usage.gif?v=1660825494004"
       ></img>
       <Step
-        title="Step 3 Diary Note"
+        title="Step 3 Diary Notes"
         image="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/pitaface.png?v=1660746606545"
         content=""
       ></Step>
@@ -186,7 +191,7 @@ function App() {
       Dark Pita works on five sites across three types of platforms (i.e.,
       online shopping platforms, video streaming platforms, and social meidas
       platforms) to help you understand and counteract dark pattern interfaces
-      in your daily online experience. It provides over 30 design enhancement
+      in your daily online experience. It provides over 30 interventions
       strategies to help you change undesirable dark patterns based on your
       needs.
       <ul style={listStlying}>
@@ -199,10 +204,10 @@ function App() {
       <h3>When should I send diary notes?</h3>
       <ul style={listStlying}>
         <li>
-          When a design enhancement help you resist the manipulation from a
+          When a intervention helps you resist the manipulation from a
           specific dark pattern.
         </li>{' '}
-        <li>When you come up with new design enhancement ideas.</li>
+        <li>When you come up with new intervention ideas.</li>
         <li>
           When you feel something interesting or annoying when interacting with
           our extension.

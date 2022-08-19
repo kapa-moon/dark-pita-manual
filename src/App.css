@@ -38,6 +38,7 @@ a:hover {
 
 .Demo {
   height: 25vmin;
+  width: 40vmin;
   margin-left: 40px;
   border: 2px solid #333;
   border-radius: 8px;
@@ -47,7 +48,7 @@ a:hover {
 }
 
 .Demo:hover {
-  transform: scale(2) translate(50%, 0);
+  transform: scale(3) translate(40%, 0);
 }
 
 .PitaAvatar {

@@ -180,8 +180,8 @@ function App() {
       <Contact></Contact>
       <h3>What platforms does Dark Pita work on?</h3>
       Dark Pita works on five sites across three types of platforms (i.e.,
-      online shopping platforms, video streaming platforms, and social meidas
-      platforms) to help you understand and counteract dark pattern interfaces
+      online shopping, video streaming, and social midea
+      ) to help you understand and counteract dark pattern interfaces
       in your daily online experience. It provides over 30 interventions
       strategies to help you change undesirable dark patterns based on your
       needs.

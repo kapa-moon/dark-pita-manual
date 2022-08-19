@@ -33,7 +33,7 @@ function App() {
         </li>
       </ul>
       <img
-        className="Demo"
+        className="DemoLevelOne"
         src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/login.gif?v=1660817500622"
       ></img>
       <Step
@@ -55,18 +55,18 @@ function App() {
           Toggle <span className="Highlight">Developer mode</span> ON.
         </li>
         <img
-          className="Demo"
+          className="DemoLevelTwo"
           src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/devmode.gif?v=1660887198489"
         ></img>
         <li>
           Select <span className="Highlight">Load Unpacked</span>.
         </li>
         <li>
-          Select the unpacked <span className="Highlight">/dist</span>{' '}
+          Select the unpacked <span className="Highlight">/dark-pita</span>{' '}
           directory.
         </li>
         <img
-          className="Demo"
+          className="DemoLevelTwo"
           src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/unpack.gif?v=1660886552680"
         ></img>
         <li>
@@ -93,7 +93,7 @@ function App() {
         </li>
         <li>Pin the Dark Pita</li>
         <img
-          className="Demo"
+          className="DemoLevelTwo"
           src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/pin-2.gif?v=1660887010807"
         ></img>
       </ul>
@@ -140,7 +140,7 @@ function App() {
         your selected action will not work when you re-enter this site.
       </p>
       <img
-        className="Demo"
+        className="DemoLevelOne"
         src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/usage.gif?v=1660825494004"
       ></img>
       <Step
@@ -173,7 +173,7 @@ function App() {
         </li>
       </ul>
       <img
-        className="Demo"
+        className="DemoLevelOne"
         src="https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/diary.gif?v=1660881151788"
       ></img>
       {/* <StepOne></StepOne> */}
@@ -208,7 +208,7 @@ function App() {
         </li>{' '}
         <li>To send the diary, please refer to the instructions above.</li>
       </ul>
-      <h3>When should I send diary notes?</h3>
+      <h3>When should I send Diary Notes?</h3>
       <ul style={listStlying}>
         <li>
           When an intervention helps you resist the manipulation from a specific
@@ -226,7 +226,7 @@ function App() {
         </li>
       </ul>
       <h3 id="diaryGuideline">
-        What are the guideline questions for writing diary notes?
+        What are the guideline questions for writing Diary Notes?
       </h3>
       <ol style={listStlying}>
         <li>

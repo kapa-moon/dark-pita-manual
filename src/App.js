@@ -190,7 +190,7 @@ function App() {
         <li>
           You can think of the console as the "customer service portal" of Dark Pita. It's an important way for you as users to communicate with us.
         </li>{' '}
-        <li>We value your feedback and it is crucial to our study and future development.</li>{' '}
+        <li>We value your 🗣 feedback and it is crucial to our study and future development.</li>{' '}
         <li>You are encouraged to write to most of the questions. You can also send multiple messages/screenshots if  needed. </li>{' '}
         <li>To send the diary, please refer to the instructions above.</li>
       </ul>

@@ -7,6 +7,8 @@ const Step = (props) => {
     return (
         // <span>{props.number}</span>
         <div>
+            <br />
+            <br />
             <div className='title'>
                 <h3 style={titleStyling}>{props.title}</h3>
             </div>
